@@ -36,8 +36,15 @@ fun Greeting(
     modifier: Modifier = Modifier,
 ) {
     Text(
+        
         text = "Hello $name!",
+
+
+
+
+
         modifier = modifier,
+
     )
 }
 
@@ -45,6 +52,12 @@ fun Greeting(
 @Composable
 fun GreetingPreview() {
     TestTheme {
+
+
+
+
         Greeting("Android")
+
+
     }
 }
