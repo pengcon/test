@@ -17,11 +17,4 @@ jobs:
         uses: ScaCap/action-ktlint@master
         with:
           github_token: ${{ secrets.github_token }}
-
-      - name: Check Ktlint Results
-        if: ${{ steps.ktlint.outputs.error_count }}
-        run: |
-          if [ "${{ steps.ktlint.outputs.error_count }}" -gt 0 ]; then
-            echo "Ktlint found errors. Please fix them before merging."
-            exit 1
-          fi
+          reporter: github-pr-check
