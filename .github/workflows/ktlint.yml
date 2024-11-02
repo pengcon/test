@@ -1,10 +1,5 @@
-name: ktlint
-
-on:
-  pull_request:
-    branches:
-      - main
-      - develop
+name: reviewdog
+on: [pull_request]
 jobs:
   ktlint:
     name: Check Code Quality
@@ -19,4 +14,4 @@ jobs:
         uses: ScaCap/action-ktlint@master
         with:
           github_token: ${{ secrets.github_token }}
-          reporter: github-pr-check
+          reporter: github-pr-review # Change reporter
