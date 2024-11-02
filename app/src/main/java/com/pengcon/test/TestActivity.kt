@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.pengcon.test.ui.theme.TestTheme
 
-class MainActivity : ComponentActivity() {
+class TestActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -31,25 +31,25 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(
+fun Playing(
     name: String,
+
     modifier: Modifier = Modifier,
+
 ) {
     Text(
-
         text = "Hello $name!",
-
         modifier = modifier,
-
     )
 }
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun PlayingPreview() {
 
     TestTheme {
 
         Greeting("Android")
+
     }
 }
