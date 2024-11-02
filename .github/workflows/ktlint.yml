@@ -1,5 +1,6 @@
 name: reviewdog
 on: [pull_request]
+
 jobs:
   ktlint:
     name: Check Code Quality
@@ -7,11 +8,20 @@ jobs:
 
     steps:
       - name: Clone repo
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
         with:
           fetch-depth: 1
-      - name: ktlint
+
+      - name: Run ktlint
+        id: ktlint
         uses: ScaCap/action-ktlint@master
         with:
           github_token: ${{ secrets.github_token }}
-          args: '**/*.kt'
+
+      - name: Check Ktlint Results
+        if: ${{ steps.ktlint.outputs.error_count }}
+        run: |
+          if [ "${{ steps.ktlint.outputs.error_count }}" -gt 0 ]; then
+            echo "Ktlint found errors. Please fix them before merging."
+            exit 1
+          fi
