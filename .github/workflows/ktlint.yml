@@ -33,4 +33,4 @@ jobs:
         run: chmod +x gradlew
 
       - name: check ktlint
-        run: ./gradlew ktlintCheck
+        run: ./gradlew ktlintCheck --files $(find . -name "*.kt")
