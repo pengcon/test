@@ -21,11 +21,11 @@
 
 # 🎹 주요 기능
 
-### 홈
+### 실시간 퀴즈 진행 및 결과
 
-|초기 화면|그린 기울기 구하기|
+|퀴즈 진행|결과 및 통계|
 |:--:|:--:|
-|<img src = "https://user-images.githubusercontent.com/76525173/208298249-90bf9202-cefc-4905-9ac4-3fd31b409e50.gif" width="252" height="560">|<img src = "https://user-images.githubusercontent.com/76525173/208298315-5580e933-611c-4baf-808c-8d30357fa08f.gif" width="252" height="560">|
+|<img src = "https://github.com/user-attachments/assets/e9d08b79-1fa4-4826-8fdf-17934535f052" width="500" height="560" >|<img src = "https://github.com/user-attachments/assets/a8d8eb48-a07d-41e7-976e-f6c676699d21" width="500" height="560">|
 
 - 환영 문구가 매번 달라집니다.
 - 현재 위치의 날씨를 볼 수 있습니다.
