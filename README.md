@@ -42,11 +42,12 @@
 - 영상을 삭제할 수 있습니다.
 - 영상을 나만 볼수도, 다른 사람들에게 보여줄수도 있습니다.
 
-### 다른 사람 갤러리
+### 로그인/회원가입
 
-|초기 화면|검색|
-|:--:|:--:|
-|<img src = "https://user-images.githubusercontent.com/76525173/208299891-6a9a0629-1dc3-4f72-b61e-28a2ee9e3307.gif" width="252" height="560">|<img src = "https://user-images.githubusercontent.com/76525173/208300760-be516294-7510-494d-a8a3-41addfd4b605.gif" width="252" height="560">|
+|구글 로그인/회원가입|
+|:--:|
+|<img src = "https://github.com/user-attachments/assets/83434949-53f1-460f-a2f8-f373c1c10d4a" width="252" height="560">
+
 
 - 다른 사람의 퍼팅 동영상을 볼 수 있습니다.
 - 검색을 통해 원하는 골프장의 영상만 모아 볼 수 있습니다.
