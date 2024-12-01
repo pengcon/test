@@ -31,11 +31,11 @@
 - 현재 위치의 날씨를 볼 수 있습니다.
 - 그린 기울기 구하기를 통해 원하는 위치의 땅의 높낮이를 알 수 있습니다.
 
-### 나의 갤러리 및 플레이
+ 
 
-|초기 화면|공유 상태 전환|삭제하기|
-|:--:|:--:|:--:|
-|<img src = "https://user-images.githubusercontent.com/76525173/208299534-1ea40299-7467-48c5-88bc-36d1882ab053.gif" width="252" height="560">|<img src = "https://user-images.githubusercontent.com/76525173/208299356-16a279a6-bd5e-4cab-9592-3b33812103f1.gif" width="252" height="560">|<img src = "https://user-images.githubusercontent.com/76525173/208299363-a3e97aa0-585e-468e-8032-e690a8ef6f04.gif" width="252" height="560">|
+|퀴즈 진행|결과 및 통계|
+|:--:|:--:|
+|<img src = "https://github.com/user-attachments/assets/1aeb294c-23b3-410a-8ccc-3d8f1b5652d8" width="252" height="560">|<img src = "https://github.com/user-attachments/assets/be421142-ef45-4977-a2fe-d50a6c63d97b" width="252" height="560">
 
 - 나의 퍼팅 동영상을 볼 수 있습니다.
 - 검색을 통해 원하는 골프장의 영상만 모아 볼 수 있습니다.
