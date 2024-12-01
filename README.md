@@ -17,21 +17,20 @@
 ---
 
 <br>
+![실시간 문제 결과 및 통계](https://github.com/user-attachments/assets/8aff2b13-52d2-4d6e-8ad4-f9cc3eff633b)
+
 
 
 # 🎹 주요 기능
 
 ### 실시간 퀴즈 진행 및 결과
+- 좌측 - 관리자, 우측 - 참여자
+  
+|화면 분류|관리자 - 참여자|
+|     :--:     |:--:|
+|     실시간 퀴즈 진행     |<img src = "https://github.com/user-attachments/assets/0cb33ce4-a531-4f7d-9648-25fb31da3df5" width="500" height="560" >|
+|     실시간 퀴즈 결과 및 통계     |<img src = "https://github.com/user-attachments/assets/8aff2b13-52d2-4d6e-8ad4-f9cc3eff633b" width="500" height="560">|
 
-|퀴즈 진행|결과 및 통계|
-|:--:|:--:|
-|<img src = "https://github.com/user-attachments/assets/e9d08b79-1fa4-4826-8fdf-17934535f052" width="500" height="560" >|<img src = "https://github.com/user-attachments/assets/a8d8eb48-a07d-41e7-976e-f6c676699d21" width="500" height="560">|
-
-- 환영 문구가 매번 달라집니다.
-- 현재 위치의 날씨를 볼 수 있습니다.
-- 그린 기울기 구하기를 통해 원하는 위치의 땅의 높낮이를 알 수 있습니다.
-
- 
 
 |퀴즈 진행|결과 및 통계|
 |:--:|:--:|
