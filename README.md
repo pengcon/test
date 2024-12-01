@@ -56,7 +56,7 @@
 # 기술 스택 
 | Category  | TechStack | 관련 문서 |
 | ------------- | ------------- | ------------- |
-| Architecture  | Clean Architecture, Multi Module, MVVM  | [클린 아키텍쳐 선택 근거](https://www.notion.so/65af7f3ff4de425ba5ef818a123c13c3?pvs=4#57687e8fd3c044dca88f700553ed6326)⎮[gradle plugin 활용하기(1)](https://915dbfl.github.io/android/gradle-plugin(1)/) ⎮[gradle plugin 활용하기(2)](https://915dbfl.github.io/android/gradle-plugin(2)/)
+| Architecture  | Clean Architecture, Multi Module, MVVM  | [클린 아키텍쳐 선택 근거](https://www.notion.so/65af7f3ff4de425ba5ef818a123c13c3?pvs=4#57687e8fd3c044dca88f700553ed6326)⎮[gradle plugin 활용하기(1)](https://915dbfl.github.io/android/gradle-plugin(1)/) </br>⎮[gradle plugin 활용하기(2)](https://915dbfl.github.io/android/gradle-plugin(2)/)
 | DI | Hilt | [Why Hilt?](https://www.notion.so/65af7f3ff4de425ba5ef818a123c13c3?pvs=4#b8490660e7954618b8817af465ada612)
 | Network | Retrofit, OkHttp, Kotlin Serialization?? (수정 해야됨) | 
 | Asynchronous | Coroutines, Flow | [load 데이터를 언제 하면 좋을까?](https://www.notion.so/1315bfe2c24f8064837fc11fa838e586?p=13d5bfe2c24f8019b310f3d195174655&pm=s)
