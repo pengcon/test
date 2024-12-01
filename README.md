@@ -17,40 +17,46 @@
 ---
 
 <br>
-![실시간 문제 결과 및 통계](https://github.com/user-attachments/assets/8aff2b13-52d2-4d6e-8ad4-f9cc3eff633b)
 
 
 
 # 🎹 주요 기능
 
 ### 실시간 퀴즈 진행 및 결과
-- 좌측 - 관리자, 우측 - 참여자
   
 |화면 분류|관리자 - 참여자|
 |     :--:     |:--:|
 |     실시간 퀴즈 진행     |<img src = "https://github.com/user-attachments/assets/0cb33ce4-a531-4f7d-9648-25fb31da3df5" width="500" height="560" >|
 |     실시간 퀴즈 결과 및 통계     |<img src = "https://github.com/user-attachments/assets/8aff2b13-52d2-4d6e-8ad4-f9cc3eff633b" width="500" height="560">|
 
+<br>
 
+### 일반 퀴즈 진행 및 결과
 |퀴즈 진행|결과 및 통계|
 |:--:|:--:|
 |<img src = "https://github.com/user-attachments/assets/1aeb294c-23b3-410a-8ccc-3d8f1b5652d8" width="252" height="560">|<img src = "https://github.com/user-attachments/assets/be421142-ef45-4977-a2fe-d50a6c63d97b" width="252" height="560">
 
-- 나의 퍼팅 동영상을 볼 수 있습니다.
-- 검색을 통해 원하는 골프장의 영상만 모아 볼 수 있습니다.
-- 영상을 삭제할 수 있습니다.
-- 영상을 나만 볼수도, 다른 사람들에게 보여줄수도 있습니다.
+<br>
+
+### 퀴즈 생성
+|AI 퀴즈 생성|낱말 퀴즈 생성|객관식 퀴즈 생성|
+|:--:|:--:|:--:|
+|<img src = "https://github.com/user-attachments/assets/c1484d17-02c4-4147-b4de-ca6a1cf5f6c1" width="252" height="560">|<img src = "https://github.com/user-attachments/assets/3fc71bf5-e7c2-4be7-9a28-c84bd156a1e9" width="252" height="560">|<img src = "https://github.com/user-attachments/assets/ba2ede25-c8c8-4af5-b989-6226abb4332a" width="252" height="560">
+
+<br>
+
+### 스터디 그룹 관리
+|스터디 초대 발송|스터디 초대 확인|
+|:--:|:--:|
+|<img src = "https://github.com/user-attachments/assets/e43decff-1dc1-448c-8ee0-ee98beaf07e2" width="252" height="560">|<img src = "https://github.com/user-attachments/assets/ffaea0c1-0981-4f6c-894b-3ef246e9f3e9" width="252" height="560">|
+
+<br>
 
 ### 로그인/회원가입
 
 |구글 로그인/회원가입|
 |:--:|
 |<img src = "https://github.com/user-attachments/assets/83434949-53f1-460f-a2f8-f373c1c10d4a" width="252" height="560">
-
-
-- 다른 사람의 퍼팅 동영상을 볼 수 있습니다.
-- 검색을 통해 원하는 골프장의 영상만 모아 볼 수 있습니다.
-- 최신순, 좋아요 순으로 정렬해서 볼 수 있습니다.
 
 
 # 기술 스택 
