@@ -72,7 +72,7 @@
 | CI/CD | Github Actions | [Ktlint 적용기](https://jay20033.tistory.com/31) |
 | Data Storage | Firestore, SharedPreferences | [Firebase 세팅](https://www.notion.so/fireStore-with-979d06402b534fa394b96ceeb5b33c55?pvs=21) |
 | AI | Clova Studio | [AI 문제 출제](https://www.notion.so/AI-b952b973c50848438341e8c5c379c228?pvs=21) |
-| Community | Figma, Slack, Gather Town |  |
+| Community | Figma, Slack, Notion |  |
 
 # 🚀 아키텍쳐
 ![image](https://github.com/user-attachments/assets/d70b2247-3d1d-4795-8eda-247c7ded0b43)
