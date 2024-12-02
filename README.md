@@ -14,7 +14,7 @@
 1. **자유롭게 원하는 시간대에 진행할 수 있는 퀴즈**
 2. **한 명의 주도 아래 실시간으로 참여 가능한 퀴즈** (Slido 방식과 유사)
 
----
+
 
 <br>
 
@@ -59,29 +59,66 @@
 |<img src = "https://github.com/user-attachments/assets/83434949-53f1-460f-a2f8-f373c1c10d4a" width="252" height="560">
 
 
-# 기술 스택 
-| Category  | TechStack | 관련 문서 |
-| ------------- | ------------- | ------------- |
-| Architecture  | Clean Architecture, Multi Module, MVVM  | [클린 아키텍쳐 선택 근거](https://www.notion.so/65af7f3ff4de425ba5ef818a123c13c3?pvs=4#57687e8fd3c044dca88f700553ed6326)⎮[gradle plugin 활용하기(1)](https://915dbfl.github.io/android/gradle-plugin(1)/) </br>⎮[gradle plugin 활용하기(2)](https://915dbfl.github.io/android/gradle-plugin(2)/)
-| DI | Hilt | [Why Hilt?](https://www.notion.so/65af7f3ff4de425ba5ef818a123c13c3?pvs=4#b8490660e7954618b8817af465ada612)
-| Network | Retrofit, OkHttp, Kotlin Serialization?? (수정 해야됨) | 
-| Asynchronous | Coroutines, Flow | [load 데이터를 언제 하면 좋을까?](https://www.notion.so/1315bfe2c24f8064837fc11fa838e586?p=13d5bfe2c24f8019b310f3d195174655&pm=s)
-| Jetpack |  Compose, Navigation | [LazyColumn/Row의 사실과 오해](https://www.notion.so/1315bfe2c24f8064837fc11fa838e586?p=3c6f5b41183a4962b1338c1e582b07ee&pm=s)⎮[Compose Navigation 적용하기](https://trite-ice-00b.notion.site/Compose-navigation-cca9b5763d77445a9288a03831b26352?pvs=74)⎮ [full compose 프로젝트에 navigation compose 적용기](https://915dbfl.github.io/compose/compose-navigation/) (둘중 하나만 사용하기)
-| Image | Coil | [Why Coil? (with Glide)](https://www.notion.so/65af7f3ff4de425ba5ef818a123c13c3?pvs=4#6936b41d1c0e44d58641343c9c0343dd)
-| CI/CD | Github Actions |[Ktlint 적용기](https://jay20033.tistory.com/31)
-- 🚀 아키텍쳐 (수정해야됨 다른팀꺼임 )
-<img width="450" alt="image" src="https://github.com/boostcampwm2023/and04-catchy-tape/assets/62279741/6ba75222-1cd6-417a-b8ec-2aef6bbf1deb">
+# 📚 기술 스택
+
+| Category | TechStack | 관련 문서 |
+| --- | --- | --- |
+| Architecture | Clean Architecture, Multi Module, MVVM | [클린 아키텍쳐 선택 근거](https://www.notion.so/65af7f3ff4de425ba5ef818a123c13c3?pvs=21)⎮[gradle plugin 활용하기(1)](https://915dbfl.github.io/android/gradle-plugin(1)/) ⎮[gradle plugin 활용하기(2)](https://915dbfl.github.io/android/gradle-plugin(2)/) |  |
+| DI | Hilt | [Why Hilt?](https://www.notion.so/65af7f3ff4de425ba5ef818a123c13c3?pvs=21) |
+| Network | Retrofit, OkHttp, Kotlin Serialization |  |
+| Asynchronous | Coroutines, Flow | [load 데이터를 언제 하면 좋을까?](https://www.notion.so/load-viewModel-init-13d5bfe2c24f8019b310f3d195174655?pvs=21) |
+| UI/UX | Compose, Navigation | [LazyColumn/Row의 사실과 오해](https://www.notion.so/LazyColumn-Row-3c6f5b41183a4962b1338c1e582b07ee?pvs=21)⎮[Compose Navigation 적용하기](https://www.notion.so/Compose-navigation-cca9b5763d77445a9288a03831b26352?pvs=21) |
+| Image | Coil | [Why Coil? (with Glide)](https://www.notion.so/65af7f3ff4de425ba5ef818a123c13c3?pvs=21) | [확장자, 리사이징 비교](https://www.notion.so/2f1de70729874dc1a57b903a72ff3ff1?pvs=21) |
+| CI/CD | Github Actions | [Ktlint 적용기](https://jay20033.tistory.com/31) |
+| Data Storage | Firestore, SharedPreferences | [Firebase 세팅](https://www.notion.so/fireStore-with-979d06402b534fa394b96ceeb5b33c55?pvs=21) |
+| AI | Clova Studio | [AI 문제 출제](https://www.notion.so/AI-b952b973c50848438341e8c5c379c228?pvs=21) |
+| Community | Figma, Slack, Gather Town |  |
+
+# 🚀 아키텍쳐
+![image](https://github.com/user-attachments/assets/d70b2247-3d1d-4795-8eda-247c7ded0b43)
+
+
 
 <br>
 
 
 # 👊 기술적 도전
-기술적 도전이 들어갑니다
+
+**1. 이미지 최적화**
+
+> 이미지를 최적화하여 성능을 개선했습니다.
+>
+> 압축, 리사이징을 적용하여 용량 축소를 하였습니다. 
+>
+> 이를 통해 업로드, 로딩 속도를 개선하였고, 서버 비용을 절감할 수 있었습니다. 
+> 
+> [이미지 최적화](https://www.notion.so/2f1de70729874dc1a57b903a72ff3ff1?pvs=21) 
+> 
+
+**2. 문제 유형 확장 가능한 구조 설계**
+
+> 추상화를 활용해 문제 유형에 대해 확장 가능한 구조를 설계하였습니다.
+> 
+> 
+> 추후 새로운 문제 유형이 추가될 경우, 기존 코드를 수정하지 않고도 확장이 가능합니다.
+> 
+> [문제 유형 확장 가능한 구조 설계](https://www.notion.so/f86d5a85bb6c42ed9d06d2c7a76b07d1?pvs=21) 
+>
+
+**3. 실시간 퀴즈 구현**
 
 #
 
 # ❓ 문제 해결
-문제 해결이 들어갑니다
+**BasicTextField가 width에 따라 키보드에 가려지는 오류**
+
+> imePadding을 적용하여도 BasicTextField가 키보드에 가려지는 오류를 마주했습니다.
+> 
+> 
+> component tree등을 활용하여 오류를 해결한 과정을 기록했습니다.
+> 
+> [🚨 [오류해결] basicTextField가 width에 따라 키보드에 가려지는 상황](https://velog.io/@kdogs/MongoDB%EC%97%90%EC%84%9C-%EC%BF%BC%EB%A6%AC-%EC%84%B1%EB%8A%A5-%EB%B6%84%EC%84%9D%ED%95%98%EA%B8%B0)
+>
 
 #
 
