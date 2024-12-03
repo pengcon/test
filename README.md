@@ -26,8 +26,8 @@
   
 |화면 분류|관리자 - 참여자|
 |     :--:     |:--:|
-|     실시간 퀴즈 진행     |<img src = "https://github.com/user-attachments/assets/0cb33ce4-a531-4f7d-9648-25fb31da3df5" width="500" height="560" >|
-|     실시간 퀴즈 결과 및 통계     |<img src = "https://github.com/user-attachments/assets/8aff2b13-52d2-4d6e-8ad4-f9cc3eff633b" width="500" height="560">|
+|     실시간 퀴즈 진행     |<img src = "https://github.com/user-attachments/assets/3ed05569-dd42-47ab-9856-0cb8dcf2111b" width="500" height="560" >|
+|     실시간 퀴즈 결과 및 통계     |<img src = "https://github.com/user-attachments/assets/cb6d170f-3f94-442a-83d9-4ea6a5667155" width="500" height="560">|
 
 <br>
 
